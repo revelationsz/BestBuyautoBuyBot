@@ -12,15 +12,15 @@ def buyer(url):
     from twilio.base.exceptions import TwilioRestException
 
 
-    email = "rhinoam@gmail.com" #email
-    password = "sr24mesjw!" #password
-    securityCode =  567 #credit_card_security_code
+    email =  #email
+    password = #password
+    securityCode =  #credit_card_security_code
 
 
-    toNumber = '9413875069' #phone number
-    fromNumber = '12058519601' #twilio phone number
-    accountSid = 'ACbb3cadcf0203c   0b30a4fe5eded752f8e' #acct Sid
-    authToken = '257b0858025d640b6ad709ba75d5ec94' #auth token
+    toNumber =  #phone number
+    fromNumber = #twilio phone number
+    accountSid =  #acct Sid
+    authToken =  #auth token
     client = Client(accountSid, authToken)
 
     def __init__(self, email, password, securityCode):
